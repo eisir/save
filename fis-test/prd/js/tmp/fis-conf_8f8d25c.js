@@ -1,0 +1,1 @@
+fis.set("new date",Date.now()),fis.match("*.{js,css}",{query:"?=t"+fis.get("new date")}),fis.match("*.js",{optimizer:fis.plugin("uglify-js")}),fis.media("prod").match("*",{release:"/prd/$0"}).match("*.js",{release:"/prd/js/$0"});

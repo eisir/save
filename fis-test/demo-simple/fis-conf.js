@@ -1,0 +1,1 @@
+fis.match("*",{release:"/dist/$0"});

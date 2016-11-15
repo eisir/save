@@ -1,0 +1,11 @@
+#main {
+  width: 200px;
+  height: 300px;
+  background-color: red;
+}
+#main .bg {
+  color: #fff;
+  background-color: red;
+}
+
+/*# sourceMappingURL=my.css.map */

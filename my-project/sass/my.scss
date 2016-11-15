@@ -1,0 +1,15 @@
+$c:#fff;
+$bg:red;
+$w:200px;
+$h:300px;
+
+
+#main{
+  width:$w;
+  height:$h;
+  background-color: $bg;
+  .bg{
+    color:$c;
+    background-color: $bg;
+  }
+}
